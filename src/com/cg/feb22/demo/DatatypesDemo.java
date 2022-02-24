@@ -13,10 +13,12 @@ package com.cg.feb22.demo;
 public class DatatypesDemo {
 	
 	public static void main(String[] args) {
-	
+		
 		int num = 10;
+		System.out.println(num);
+	
 		byte b1 = 127; //-128 to 127
-		System.out.println(Byte.MIN_VALUE);
+		System.out.println(Byte.MIN_VALUE + b1);
 		System.out.println(Byte.MAX_VALUE);
 		System.out.println(Byte.SIZE);
 
