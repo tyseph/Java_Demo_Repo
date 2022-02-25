@@ -29,5 +29,12 @@ public class ConDemo {
 
 		Employee e3 = new Employee(103, "Tonu", 55000);
 		System.out.println(e3.toString());
+		
+		Employee e4 = new Employee(104, "chonu");
+		System.out.println(e4.toString());
+		
+		Customer c1 = new Customer(101, "Sajal");
+		System.out.println(c1.toString());
+		
 	}
 }

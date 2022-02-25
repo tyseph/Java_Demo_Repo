@@ -1,17 +1,43 @@
 package com.cg.feb22.oop.intro;
 
-public class Employee {
+class Class1{
+	
+	static int num;
+	int num2;
 
+	static  void m1() {
+		System.out.println(Class1.num);
+		Class1 obj = new Class1();
+		System.out.println(obj.num2);
+	}
+	
+	void m2() {
+		System.out.println(Class1.num);
+		System.out.println(this.num2);
+	}
+}
+public class Employee {
+	
+	
 	int eid;
 	String firstName;
 	double salary;
 
-	Employee() {
-		System.out.println("First constructor called");
+	public Employee() {
+		super();
 	}
 
-	Employee(int a, String b, double c) {
-		System.out.println("Second constructor called");
+	public Employee(int eid, String firstName) {
+		super();
+		this.eid = eid;
+		this.firstName = firstName;
+	}
+
+	public Employee(int eid, String firstName, double salary) {
+		super();
+		this.eid = eid;
+		this.firstName = firstName;
+		this.salary = salary;
 	}
 
 	void work() {
