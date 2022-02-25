@@ -18,9 +18,7 @@ public class Lab3ex1_2 {
 		}
 		System.out.println(sum);
 		
-		sc.close();
-		
-		
+		sc.close();		
 	}
 
 }
