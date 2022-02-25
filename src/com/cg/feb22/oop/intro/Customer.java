@@ -27,4 +27,9 @@ public class Customer {
 		System.out.println("Customer [custId=" + custId + ", firstName=" + firstName + ", bill=" + bill + "]");
 	}
 
+	@Override
+	public String toString() {
+		return "Customer [custId=" + custId + ", firstName=" + firstName + ", bill=" + bill + "]";
+	}
+
 }
