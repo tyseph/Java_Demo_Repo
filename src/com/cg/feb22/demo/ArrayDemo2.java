@@ -1,5 +1,4 @@
 package com.cg.feb22.demo;
-import java.util.*;
 
 public class ArrayDemo2 {
 

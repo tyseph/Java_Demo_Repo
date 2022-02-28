@@ -54,7 +54,7 @@ public class DatatypesDemo {
 		String name = "Sajal";
 		System.out.println(Boolean.valueOf(name));
 				
-		double num2 = 8.6;
+		//double num2 = 8.6;
 		
 	
 	}
