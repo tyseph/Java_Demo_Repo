@@ -1,6 +1,10 @@
 package com.cg.feb22.oops;
 
-interface FinMin{
+interface President{
+	
+}
+
+interface FinMin extends President{
 	abstract void empRules();
 }
 
