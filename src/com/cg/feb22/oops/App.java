@@ -5,7 +5,7 @@ package com.cg.feb22.oops;
 class Parent {
 	int num = 10;
 	static int num4 = 40;
-	private int num5 = 50;
+	//private int num5 = 50;
 }
 
 class Child extends Parent {
